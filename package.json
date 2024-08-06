@@ -4,7 +4,6 @@
   "description": "Accessoires",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "evershop install",
     "build": "evershop build -- --skip-minify",
     "start": "evershop start",
