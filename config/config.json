@@ -1,0 +1,22 @@
+{
+    "resend": {
+      "from": "rocashop@online.de",
+      "events": {
+        "order_placed": {
+          "subject": "Order Confirmation",
+          "enabled": true,
+          "templatePath": "config/emails/order_confirmation.html"
+        },
+        "reset_password": {
+          "subject": "Reset Password",
+          "enabled": true,
+          "templatePath": "config/emails/reset_password.html"
+        },
+        "customer_registered": {
+          "subject": "Willkommen zu RocaShop",
+          "enabled": true,
+          "templatePath": "config/emails/welcome.html" 
+        }
+      }
+    }
+  }

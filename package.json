@@ -1,0 +1,27 @@
+{
+  "name": "rocashop",
+  "version": "1.0.0",
+  "description": "Accessoires",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "evershop install",
+    "build": "evershop build -- --skip-minify",
+    "start": "evershop start",
+    "dev": "evershop dev",
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword"
+  },
+  "keywords": [
+    "Schmuck"
+  ],
+  "author": "BD",
+  "license": "ISC",
+  "dependencies": {
+    "@evershop/evershop": "^1.1.0",
+    "@evershop/resend": "^1.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}
